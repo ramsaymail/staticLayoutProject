@@ -1,0 +1,163 @@
+body {
+  	background-color: whitesmoke;
+  	font-family: 'Raleway', sans-serif;
+	height: 2000px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+}
+
+nav ul li{ 
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+  /* position: fixed; */
+  
+}
+
+#brand {
+  float: left;
+}
+
+.nav-link {
+  color:whitesmoke;
+  text-decoration: none;
+  font-family: 'Acme', sans-serif;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+h1 {
+    font-size: 20pt;
+    font-family: 'Acme', sans-serif;
+    margin-top: 198px;
+}
+
+.header-tag {
+    text-align: center;
+    color: white;
+    padding-bottom: 0px;  /* text-shadow: 2px 2px 2px lightcoral; */
+}
+
+.header-try {
+  text-align: center;
+  color: rgb(30, 155, 80);
+  padding-bottom: 0px;  /* text-shadow: 2px 2px 2px lightcoral; */
+}
+#home {
+    margin-top: -19px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: url("bkgrnd.jpg");
+    height: 475px;
+}
+
+.main {
+  text-align: center;
+}
+
+
+h2 {
+  color: lightslategray;
+}
+
+.middle {
+    background: linear-gradient(
+318.68deg
+, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+    padding-bottom: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    font-size: x-large;
+    font-style: oblique;
+    color: #FEFEFE;
+    height: 100px;
+}
+
+.black {
+  background: black;
+  padding-bottom: 10px;
+  margin-left: -15px;
+  margin-right: -15px;
+  /* margin-top: 0px; */
+  font-size: x-large;
+  font-style: oblique;
+  color: #FEFEFE;
+  height: 2000px;
+}
+#home {
+    padding-top: 124px;
+}
+
+.box {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.oneBox {
+  /* background: #627da0; */
+	margin-top: -85px;
+	margin-left: 100px;
+  position: absolute;
+}
+
+.oneBox img{  
+  max-width: 100%;
+  max-height: 100%;
+}
+  /* padding: 20px; */
+
+.twoBox {
+  background: #627da0;
+	margin-top: -100px;
+	margin-left: 600PX;
+  position: absolute;
+}
+.threeBox {
+  background: #627da0;
+	margin-top: -100px;
+	margin-left: 1400px;
+	position: absolute;
+}
+
+.button1 {
+    
+  background-color: white; /* White */
+    border: 0;
+    border-radius: 4px;
+    color: rgb(242, 37, 37);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 840px;
+  }
+.mugs {
+  /* margin-left: 400PX; */
+  display: flex;
+  justify-content: center;
+  /* margin-right: 100px; */
+}
+
+/* .a {
+  padding-right: 15px
+}
+.b {
+  padding-right: 15px
+}
+.c {
+  padding-right: 15px
+} */
