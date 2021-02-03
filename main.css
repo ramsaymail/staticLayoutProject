@@ -1,11 +1,12 @@
 body {
-  	background-color: whitesmoke;
+  	background-color: white;
   	font-family: 'Raleway', sans-serif;
 	height: 2000px;
 }
 
 nav {
   position: fixed;
+  color: white;
   top: 0;
   left: 0;
   height: 50px;
@@ -27,13 +28,14 @@ nav ul li{
 }
 
 .nav-link {
-  color:whitesmoke;
+  color:white;
   text-decoration: none;
+  font-size: 10px;
   font-family: 'Acme', sans-serif;
 }
 
 .nav-link:hover {
-  color: grey;
+  color: white;
 }
 
 h1 {
@@ -53,6 +55,13 @@ h1 {
   color: rgb(30, 155, 80);
   padding-bottom: 0px;  /* text-shadow: 2px 2px 2px lightcoral; */
 }
+
+#bundle {
+  text-align: left;
+  color: rgb(30, 155, 80);
+  padding-bottom: 0px;  /* text-shadow: 2px 2px 2px lightcoral; */
+}
+
 #home {
     margin-top: -19px;
     position: relative;
@@ -70,7 +79,7 @@ h1 {
 
 
 h2 {
-  color: lightslategray;
+  color: white;
 }
 
 .middle {
@@ -109,7 +118,7 @@ h2 {
 .oneBox {
   /* background: #627da0; */
 	margin-top: -85px;
-	margin-left: 100px;
+	margin-left: 300px;
   position: absolute;
 }
 
@@ -120,14 +129,18 @@ h2 {
   /* padding: 20px; */
 
 .twoBox {
-  background: #627da0;
-	margin-top: -100px;
-	margin-left: 600PX;
+  /* background: #627da0; */
+  color: white;
+  width: 500px;
+	margin-top: -110px;
+	margin-left: 650PX;
   position: absolute;
 }
 .threeBox {
-  background: #627da0;
-	margin-top: -100px;
+  /* background: #627da0; */
+  color: white;
+  font-size: 14px;
+	margin-top: -75px;
 	margin-left: 1400px;
 	position: absolute;
 }
@@ -137,7 +150,7 @@ h2 {
   background-color: white; /* White */
     border: 0;
     border-radius: 4px;
-    color: rgb(242, 37, 37);
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -145,6 +158,27 @@ h2 {
     font-size: 14px;
     margin-left: 840px;
   }
+  .button2 {
+    
+    /* background-color: white; */
+      border: 1px solid white;
+      border-radius: 4px;
+      color: white;
+      padding: 0px 33px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin-top: -80px;
+      margin-left: 1420px;
+      position:absolute;
+    }
+
+
+
+
+
+
 .mugs {
   /* margin-left: 400PX; */
   display: flex;
